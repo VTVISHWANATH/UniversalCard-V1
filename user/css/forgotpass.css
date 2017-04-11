@@ -1,0 +1,125 @@
+* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body { background: url("../images/bgp.jpg") repeat-x scroll 0 0 transparent; }
+
+* {
+	box-sizing: border-box;
+}
+
+.main_wrapper {
+	max-width: 1000px;
+	width: 100%;
+	margin:0 auto;
+	background: lightgreen;
+}
+
+.header_wrapper {
+	max-width:1000px;
+	width: 100%;
+	margin:0 auto;
+	font-family:COMIC SANS MS;
+}
+
+.menubar {
+	max-width: 1000px;
+	width: 100%;
+	height:50px;
+	background:gray;
+	color:white;
+}
+
+#menu {
+	padding:5px;
+	margin:0;
+	line-height:40px;
+	float:left;
+}
+
+#menu li {
+	list-style:none;
+	display:inline;
+}
+
+#menu a {
+	text-decoration:none;
+	color:white;
+	padding:2px;
+	margin:5px;
+	font-size:16px;
+	font-family:COMIC SANS MS;
+}
+
+#menu a:hover { color:orange; font-weight:bolder; text-decoration:underline; }
+
+.contenet_wrapper {
+	max-width:1000px;
+	width:100%;
+	margin:auto;
+	background:pink;
+	text-decoration:none;
+	text-align:center;
+}
+
+.form {
+    padding: 10px;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background: pink;
+    margin: -1px 0;
+}
+
+.forgot-input{
+    border-radius: 30px;
+    box-shadow: 0 1px 2px #ccc, 0 -1px 0px #ccc;
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    transition: all 0.2s ease;
+}
+
+.forgot-input:active, .forgot-input:focus {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	outline: none;
+	border: 1px solid #bbb;
+}
+
+#footer {
+	max-width:1000px;
+	width: 100%;
+	height:100px;
+	background:grey;
+	clear:both;
+	text-decoration:none;
+}
